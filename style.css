@@ -1,90 +1,90 @@
-
 *{
   margin: 0;
   padding: 0;
+} body {
+  font-family: 'Poppins', sans-serif;
 }
-
-body {
-  font-famyli: 'poppings', sans-serif;
-}
-
 .cabecalho {
-backgroud-color:#092670;
+  background-color: #424E61;
   color: white;
-  dispaly: flex;
+  display: flex;
   justify-content: space-around;
-  aling-items: center;
+  align-items: center;
   padding: 24px 0;
- 
 }
 
-.cabecalho-iamgem {
-  widht:10%;
+.cabecalho-imagem{
+  width: 10%;
 }
 
-.cabecalho-lista-item {
-  dispaly: inline-block;
+.cabecalho-lista-item{
+  display: inline-block;
   margin: 0 16px;
   font-size: 16px;
 }
 
-.cabecalho-lista-item a {
+{
+.cabecalho-lista-item a{
   text-decoration: none;
   color: white;
 }
 
-
-.escola-imagem {
+.escola-imagem{
   width: 25%;
-}
+} 
 
-#escola {
-  background-color: aqua;
+#escola{
+  background-image: linear-gradient(#424E61,#16CFF8);
   color:white;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 24px 0;
 }
-.escola-div-conteudo [
-  widht: 35%;
 
-].escola-titulo {
- padding: 24px 0;
+.escola-div-conteudo{
+  width: 35%;
 }
-#estudante {
+
+.escola-titulo{
+  padding: 24px 0;
+
+}
+
+#estudante{
   padding: 24px 0;
 }
 
-
-.estudante-imagem {
-  widht: 120px;
+.estudante-imagem{
+  width: 120px;
 }
 
 .estudante-icone{
   width: 24px;
-  padding: 4px 8px
+  ]padding: 4px 8px;
 }
 
-.estudante-div {
-  text-align: grid;
-  padding: 16px; 0;
-}
-.estudante-titulo {
+.estudante-div{
   text-align: center;
+  padding: 16px 0;
 }
 
-.estudante-todos {
+.estudante-titulo{
+  text-align: center;
+  padding: 50px 0;
+}
+
+.estudante-todos{
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
-.rodape {
+.rodape{
   background-color: black;
   text-align: center;
 }
 
-.rodape-imagem {
+.rodape-imagem{
   height: 60px;
-  padding: 12px 0;
+  padding: 12px 0;]
 }
